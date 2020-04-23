@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%; /* setting base font size to 10px which is 62.5% of 16 px, the normal browser font size */
+  font-family: sans-serif;
+}
+
+body {
+
+}
+
+.container {
+  background: blue;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.navBar {
+  background-color: white;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navLink {
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.user {
+  text-decoration: none;
+  background: blue;
+  color: white;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  margin: .5rem;
+
+}
+
+.searchContainer {
+  flex-basis: 90%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoContainer {
+}
+
+.logo {
+  font-size: 10rem;
+  color: white;
+  text-decoration: none;
+}
+
+.searchFormContainer {
+  padding: .5rem;
+  margin: 2rem;
+  width: 30%;
+  border-radius: 10rem;
+  background: white;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchForm {
+  flex: 80%;
+}
+
+.searchIcons {
+  font-size: 1.5rem;
+  color: grey;
+  vertical-align: middle;
+}
+
+.searchFormInput {
+  font-size: 1.5rem;
+  width: 90%;
+  padding: .5rem;
+  border: none;
+}
+
+.thumbnailContainer {
+  display: flex;
+}
+
+.thumbnail {
+  width: 9rem;
+  height: 11rem;
+  margin-right: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.thumbnail:last-child {
+  margin-right: 0;
+}
+
+.thumbnailLogo {
+  background: white;
+  border-radius: 50%;
+  margin: .5rem;
+  flex-basis: 75%
+}
+
+.thumbnailTitle {
+  background: white;
+  color: blue;
+  font-size: 1.5rem;
+  margin: .5rem 2rem;
+  padding: .5rem 1rem;
+  border-radius: 2rem;
+}
+
+.footer {
+  align-self: flex-end;
+  margin: 0 2rem 4rem 0;
+}
+
+.footerIcons {
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+
+.footerLink {
+  background: grey;
+  text-decoration: none;
+  color: blue;
+  padding: 1.5rem;
+  border-radius: 2rem;
+}
